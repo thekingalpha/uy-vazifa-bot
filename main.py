@@ -20,7 +20,7 @@ async def send_welcome(message: types.Message):
 
 @dp.message_handler()
 async def gte_data(message: types.Message):
-    translation=translator.translate(message.text,dest="en")
+    translation=translator.translate(message.text,dest="rus")
     trans_text=translation.text
     await message.reply(trans_text)
 
