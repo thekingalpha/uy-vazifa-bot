@@ -14,7 +14,7 @@ translator=Translator()
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
 
-    await message.reply("Salom!\nBu bot matnni inglizchaga tarjima qiladi!\nKerakli matnni kiriting.")
+    await message.reply("Salom!\nBu bot siz kiritkan matnni rus tiliga tarjima qilib beradi!\nKerakli matnni kiriting.")
 
 
 
